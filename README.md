@@ -1,15 +1,21 @@
 # Chebyshev
 
+#### testfile
 ```testfile
 test <%= arg1 %> test
 ```
 
+#### test.yml
 ```test.yml
 arg1: testtest
 ```
 
+#### run chebyshev
+
     $ chebyshev testfile test.yml
 
+
+#### Outputs
 ```output
 test testtest test
 ```
